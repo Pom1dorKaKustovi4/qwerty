@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p></p>
+<p></p>
+<p></p>
+<div class="container overflow-hidden">
+  <div class="row gy-5">
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ iphone11 }}" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон iphone 11</p>
+          <p><b>40 000₽</b></p>
+          <a href="/cart_add/9"><button type="button" class="btn btn-primary">В корзину</button></a>
+         </div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ iphone12 }}" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон iphone 12</p>
+          <p><b>50 000₽</b></p>
+          <a href="/cart_add/10"><button type="button" class="btn btn-primary">В корзину</button></a>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ iphone13 }}" width="216" height="216" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон iphone 13 pro max</p>
+          <p><b>80 000₽</b></p>
+          <a href="/cart_add/11"><button type="button" class="btn btn-primary">В корзину</button></a>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ samsung_galaxy_a52 }}" width="208" height="216" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон samsun galaxy a52</p>
+          <p><b>25 000₽</b></p>
+          <a href="/cart_add/12"><button type="button" class="btn btn-primary">В корзину</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<p></p>
+<div class="container overflow-hidden">
+  <div class="row gy-5">
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ samsung_galaxy_s21 }}" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон samsung galaxy s21</p>
+          <p><b>65 000₽</b></p>
+          <a href="/cart_add/13"><button type="button" class="btn btn-primary">В корзину</button></a>
+         </div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ samsung_galaxy_s20 }}" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон samsung galaxy s20</p>
+          <p><b>50 000₽</b></p>
+          <a href="/cart_add/14"><button type="button" class="btn btn-primary">В корзину</button></a>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ xiaomi11 }}" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон xiaomi 11 lite</p>
+          <p><b>30 000₽</b></p>
+          <a href="/cart_add/15"><button type="button" class="btn btn-primary">В корзину</button></a>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 border bg-light">
+          <img src="{{ xiaomi10 }}" width="216" height="229" class="img-thumbnail" alt="error">
+          <p></p>
+          <p>Смартфон xiaomi note 10 pro</p>
+          <p><b>15 000₽</b></p>
+          <a href="/cart_add/16"><button type="button" class="btn btn-primary">В корзину</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/" tabindex="-1" aria-disabled="true"><</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="/">1</a></li>
+    <li class="page-item"><a class="page-link" href="/phone">2</a></li>
+    <li class="page-item"><a class="page-link" href="/TV">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="/TV">></a>
+    </li>
+  </ul>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+{% endblock %}

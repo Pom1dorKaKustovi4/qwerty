@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="text-warning">Введите путь к файлу</h1>
+<form method="post" enctype="multipart/form-data" action="/inputt">
+  <div>
+    <input type="file" accept=".jpg, .jpeg, .png" class="form-control" id="photo" name="file">
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
+</form>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+<h1>{{ name }}</h1>
+<br>
+<h5 align="middle">{{ description }}</h5>
+<h5 align="middle"></h5>
+<br>
+<h4 align="middle">Цена в STEAM: {{ price_steam }}</h4>
+<h4 align="middle">Цена в EGS: {{ price_egs }}</h4>
+<h4 align="middle">Цена в GOG: {{ price_gog }}</h4>
+<br>
+<h2 align="middle">Самое выгодное предложение в {{best_name}}: {{best_prise}}.</h2>
+
+
+
+
+{% endblock %}
+
+

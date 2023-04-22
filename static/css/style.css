@@ -1,0 +1,75 @@
+
+
+h1 {
+   text-align: center;
+}
+h2 {
+   text-align: center;
+}
+
+div.collapse navbar-collapse {
+    height: 100px;
+}
+
+table {
+    text-align:center;
+    border: 1px solid green;
+    width: 600;
+       margin: auto;
+}
+th, td {
+   border: 1px solid grey;
+}
+
+body {
+    background-color: #C0C0C0;
+}
+
+img.img-thumbnail-logo {
+    left: 20px;
+}
+
+
+li.nav-item-register {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+
+}
+
+
+li.nav-item-login {
+    position: absolute;
+    right: 190px;
+    top: 15px;
+
+}
+
+
+
+img.img-thumbnail-logo-basket {
+    position: relative;
+    left: 19px;
+}
+
+li.nav-item-start-basket {
+    position: relative;
+    left: 19px;
+}
+
+
+li.nav-item-info-basket {
+    position: relative;
+    left: 19px;
+}
+
+li.nav-item-basket-basket {
+    position: relative;
+    left: 19px;
+}
+
+
+
+div.p-3 border bg-light {
+    height: 200;
+}

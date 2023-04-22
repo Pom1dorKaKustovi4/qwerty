@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br></br>
+<div class="container overflow-hidden">
+    <div class="row gy-5">
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ a }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name1 }}</p>
+                <a href="/game/1{{ page }}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ b }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name2 }}</p>
+                <a href="/game/2{{ page }}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ c }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name3 }}</p>
+                <a href="/game/3{{page}}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ d }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name4 }}</p>
+                <a href="/game/4{{page}}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<p></p>
+<div class="container overflow-hidden">
+    <div class="row gy-5">
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ e }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name5 }}</p>
+                <a href="/game/5{{page}}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ f }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name6 }}</p>
+                <a href="/game/6{{page}}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ g }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name7 }}</p>
+                <a href="/game/7{{page}}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="p-3 border bg-light">
+                <img src="{{ h }}" class="img-thumbnail" alt="error">
+                <p></p>
+                <p>{{ name8 }}</p>
+                <a href="/game/8{{page}}">
+                    <button type="button" class="btn btn-primary">Открыть</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="/">1</a></li>
+        <li class="page-item"><a class="page-link">2</a></li>
+        <li class="page-item"><a class="page-link">3</a></li>
+        <li class="page-item"><a class="page-link" aria-disabled="true">></a></li>
+    </ul>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+{% endblock %}
